@@ -1,0 +1,17 @@
+@import "src/style/color";
+@import "src/style/functions";
+
+.home-container {
+  height: 100%;
+
+  > h1 {
+    font-size: px2Rem(40px);
+    background: #aaeeee;
+    text-align: center;
+  }
+  .list-item {
+    height: 40px;
+    line-height: 40px;
+    font-size: px2Rem(32px);
+  }
+}
